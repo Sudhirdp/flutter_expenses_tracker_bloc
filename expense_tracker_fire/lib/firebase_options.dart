@@ -42,39 +42,3 @@ class DefaultFirebaseOptions {
         );
     }
   }
-
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCB3WmtgbN_RikmTNtl-9FK0jLmM2xBJFA',
-    appId: '1:920531153302:web:a4f8646064995f3b10edb7',
-    messagingSenderId: '920531153302',
-    projectId: 'expense-trackeryt',
-    authDomain: 'expense-trackeryt.firebaseapp.com',
-    storageBucket: 'expense-trackeryt.appspot.com',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBeu19JoouRuaylY8VLrnAl2wS3YNYdg_E',
-    appId: '1:920531153302:android:cafdd278aa730fe710edb7',
-    messagingSenderId: '920531153302',
-    projectId: 'expense-trackeryt',
-    storageBucket: 'expense-trackeryt.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyB-kGck5CcEgVhC1xIMJ_aaOgm0XSowOjs',
-    appId: '1:920531153302:ios:40c803735331096810edb7',
-    messagingSenderId: '920531153302',
-    projectId: 'expense-trackeryt',
-    storageBucket: 'expense-trackeryt.appspot.com',
-    iosBundleId: 'com.example.expenseTrackerFire',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyB-kGck5CcEgVhC1xIMJ_aaOgm0XSowOjs',
-    appId: '1:920531153302:ios:c43bfd87c430ae9510edb7',
-    messagingSenderId: '920531153302',
-    projectId: 'expense-trackeryt',
-    storageBucket: 'expense-trackeryt.appspot.com',
-    iosBundleId: 'com.example.expenseTrackerFire.RunnerTests',
-  );
-}
